@@ -1,5 +1,4 @@
 # SeSAC-Study1
-# 과제
 
 # Mission2
 
