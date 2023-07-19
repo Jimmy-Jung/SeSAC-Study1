@@ -1,10 +1,5 @@
 # SeSAC-Study1
 
-# Mission2
-
-<img width="757" alt="image" src="https://github.com/Jimmy-Jung/SeSAC-Study1/assets/115251866/fb6a2520-8898-4d80-a0b9-d600222fedab">
-
-
 ### Q1. Entry Point가 무엇이며, 왜 필요할까요?
 
 ### A1.
@@ -42,23 +37,19 @@ Is Initial View Controller를 클릭해 진입점을 생성해주면 Tab Bar Con
 <img width="783" alt="image" src="https://github.com/Jimmy-Jung/SeSAC-Study1/assets/115251866/70ad9ff6-865b-40a8-8f2d-5c8266e2f529">
 
 
-# Mission3
 
-### Q1
-
-<img width="778" alt="image" src="https://github.com/Jimmy-Jung/SeSAC-Study1/assets/115251866/a05dee82-a09e-4c86-b756-f574019c512e">
+### Q1 iOS15버전과 iOS14버전에서 Button은 어떤 차이가 있을까?
 
 
 ### A1
 
 iOS15버전 이후로 버튼을 default로 설정하면 title text의 길이에 따라 자동으로 …이 표시된다.
 
-### Q2
-
-<img width="778" alt="image" src="https://github.com/Jimmy-Jung/SeSAC-Study1/assets/115251866/721f1e8d-d8b8-4bfd-bb6e-afe8bd94d2b8">
+### Q2 Xcode 프로젝트의 최소 지원 버전을 iOS 13.0 버전 이하로 설정하면 빌드가 되지 않고 오류가 발생하는데 왜 그럴까?
 
 <img width="783" alt="image" src="https://github.com/Jimmy-Jung/SeSAC-Study1/assets/115251866/d3c3e58a-fa01-4a8f-9cf4-3c46cda95c5e">
 
+### A2
 
 AppDelegate와 SceneDelegate에서 iOS13.0에서 이용가능하다는 오류가 발생한다.
 
@@ -73,4 +64,14 @@ iOS13.0 부터 SwiftUI를 지원하면서 객체들이 기본적으로 Struct로
 @main Attribute로 업그레이드 되었다.
 
 @main Attribute는 **Structure, Class, Enumeration 모두에 적용**할 수 있다.
+
+
+### Q3 탭뷰 컨트롤러를 무한정 연결하면 어떻게 될까?
+
+### A3
+
+<img width="683" alt="image" src="https://github.com/Jimmy-Jung/SeSAC-Study1/assets/115251866/c02b98ed-cc09-43ba-9717-b01f13f3671e">
+
+탭뷰 아이템은 5개가 최대고, 5개를 넘어가면 5번째 탭이 More로 바뀌고 More탭에 TableView형태로 정리된다.
+
 
